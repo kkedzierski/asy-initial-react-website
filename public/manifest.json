@@ -3,7 +3,7 @@
   "background_color": "#111",
   "display": "browser",
   "scope": "/",
-  "start_url": "/asy-initial-react-website.netlify.app",
+  "start_url": "/asy.netlify.app",
   "name": "Asy initial react website",
   "short_name": "Asy initial react website",
   "description": "Asy initial react website.",
