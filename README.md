@@ -1,13 +1,11 @@
 # Initial react website
 
 1. clone repository
-
 ```sh
 git clone git@github.com:kkedzierski/asy-initial-react-website.git
 ```
 
 2. Change directory name
-
 ```sh
 mv asy-initial-react-website.git your-project
 ```
@@ -15,17 +13,21 @@ mv asy-initial-react-website.git your-project
 3. Change name in package.json and package-lock.json to your-project
 
 4. Create repository for your-project
-5. Change remote origin to your project
 
+5. Remove remote origin
 ```sh
-git remote set-url origin git@gitlab.com:kkedzierski/your-project.git
+git remove origin
 ```
-5. Instal packages
+6. Add new origin for your-project
+```sh
+git remote add origin git@github.com:kkedzierski/your-project.git
+```
+7. Instal packages
 ```sh
 npm install
 ```
-6. Run project
+8. Run project
 ```sh
 npm start
 ```
-7. Remove or use views/Hero and enjoy :)!
+9. Remove or use views/Hero and enjoy :)!
