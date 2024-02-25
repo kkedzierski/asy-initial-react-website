@@ -20,5 +20,12 @@ mv asy-initial-react-website.git your-project
 ```sh
 git remote set-url origin git@gitlab.com:kkedzierski/your-project.git
 ```
-
-6. Remove or use views/Hero and enjoy :)!
+5. Instal packages
+```sh
+npm install
+```
+6. Run project
+```sh
+npm start
+```
+7. Remove or use views/Hero and enjoy :)!
